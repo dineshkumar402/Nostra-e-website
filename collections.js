@@ -65,10 +65,10 @@ tags.forEach((tag)=>{
     })
 })
 
-// var searchInput = document.getElementById("searchInput")
-// searchInput.addEventListener("keyup",function(){
-//     update()
-// })
+    var searchInput = document.getElementById("searchInput")
+    searchInput.addEventListener("keyup",function(){
+     update()
+   })
 
 function update()
 {
